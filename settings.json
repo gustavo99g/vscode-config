@@ -1,0 +1,45 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "editor.tabSize": 2,
+    "explorer.compactFolders": false,
+    "editor.parameterHints.enabled": false,
+
+    "editor.rulers": [110,140],
+
+    "[javascript]":{
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint":true 
+        }
+    },
+    "[javascriptreact]":{
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint":true 
+        }
+    },
+    "[typescript]":{
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint":true 
+        }
+    },
+    "[typescriptreact]":{
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint":true 
+        }
+    },
+    "eslint.validate": [
+        "vue",
+        "html",
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "material-icon-theme.activeIconPack": "nest"
+
+}
