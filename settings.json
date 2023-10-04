@@ -79,7 +79,8 @@
     "unmark",
     "upsert",
     "Usuario",
-    "WEBPUSH"
+    "WEBPUSH",
+    "zustand"
   ],
   "editor.parameterHints.enabled": false,
   "editor.renderLineHighlight": "gutter",
@@ -100,7 +101,6 @@
   "explorer.confirmDelete": false,
   "gitlens.codeLens.recentChange.enabled": false,
   "terminal.integrated.showExitAlert": false,
-  "editor.formatOnSave": true,
   "typescript.suggest.autoImports": true,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
@@ -137,6 +137,7 @@
     "view-models": "views",
     "presentation": "template",
     "dtos": "typescript",
+    "hooks":"class",
     "http": "container",
     "providers": "include",
     "factories": "class",
@@ -201,17 +202,22 @@
   "update.mode": "start",
   "terminal.integrated.gpuAcceleration": "off",
   "terminal.integrated.defaultProfile.osx": "fish",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "workbench.editor.untitled.hint": "hidden",
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "window.commandCenter": true,
   "git.openRepositoryInParentFolders": "always",
   "symbols.hidesExplorerArrows": false,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "variants"
+  ]
 }
